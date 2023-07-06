@@ -1,0 +1,128 @@
+.btnGrp {
+    padding-left: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 100%;
+}
+
+
+.boxz {
+    margin-top: 10em;
+    box-shadow: 3px 5px 6px 2px rgb(72, 70, 70);
+    background-color: #bdc3c7;
+    padding: 25px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+    width: 60%;
+}
+
+.cntrls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 40px;
+    padding-right: 60px;
+}
+
+.btns {
+    text-align: left;
+    padding: 10px 20px 100px 10px;
+    background-color: #bdc3c7;
+    margin-top: .1em;
+    width: 8em;
+    height: 8em;
+    border-radius: 5px;
+    box-shadow: 3px 5px 6px 2px rgb(72, 70, 70);
+    transition: .5s;
+    text-transform: capitalize;
+}
+
+.btns:active {
+    box-shadow: none;
+}
+
+.effects {
+    box-shadow: none;
+    transform: translateY(4px);
+}
+
+.power {
+    background-color: #bdc3c7;
+    border-radius: 5px;
+    width: 5em;
+    height: 4.8em;
+    box-shadow: 3px 5px 6px 2px rgb(72, 70, 70);
+}
+
+#power img {
+    width: 100%;
+}
+
+#volume {
+    height: 2em;
+}
+
+.active {
+    transform: translateY(4px);
+    background-color: #bdc3c7;
+    border-radius: 5px;
+    width: 5em;
+    height: 4.8em;
+    box-shadow: none;
+    border: none;
+    box-shadow: inset 0px 0px 10px 0px white;
+}
+
+#volume {
+    width: 100%;
+    height: 10px;
+    border-radius: 5px;
+    background-color: black;
+}
+
+#volume::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    cursor: pointer;
+}
+
+.screen {
+    width: 6em;
+    height: 4em;
+    padding: 20px;
+    border: 5px solid #333;
+    border-radius: 15px;
+    background-color: #000;
+}
+
+.screen span {
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.2rem;
+    color: #00ff00;
+}
+
+.switch {
+    background-color: #bdc3c7;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: .1em;
+    width: 8em;
+    height: 4em;
+    border-radius: 5px;
+    box-shadow: 3px 5px 6px 2px rgb(72, 70, 70);
+    transition: .5s;
+    text-transform: capitalize;
+}
+
+.switch:active {
+    box-shadow: none;
+    transform: translateY(4px);
+}

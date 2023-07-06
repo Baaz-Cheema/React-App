@@ -1,0 +1,47 @@
+.landing-page {
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+.landing-page__content {
+  flex: 1;
+  max-width: 600px;
+}
+
+.landing-page__logo {
+  width: 150px;
+  height: 100px;
+  animation: spin 15s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.landing-page__title {
+  font-family: Arial, sans-serif;
+  font-size: 48px;
+  margin: 0;
+}
+
+.landing-page__text {
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+.landing-page__image {
+  flex: 1;
+  max-width: 100%;
+}
