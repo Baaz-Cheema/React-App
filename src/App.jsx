@@ -4,7 +4,7 @@ import './App.css'
 import { Routes, Route } from 'react-router-dom'
 import Calculator from './Calculator/Calculator'
 import MarkDownPreviewer from './MarkDownPreviewer/MarkDownPreviewer'
-import DrumMachine from './DrumMachine/DrumMachine'
+import ExpensesCalc from './ExpensesCalc/ExpensesCalc'
 import StopWatch from './StopWatch/StopWatch'
 import TodoList from './TodoList/TodoList'
 import RandomQuote from './Random Quote Machine/RandomQuote'
@@ -18,9 +18,9 @@ function App() {
         <Routes>
           <Route exact path='/' element={<LandingPage />} />
           <Route path='/markdown-previewer' element={<MarkDownPreviewer />} />
-          <Route path='/drum-machine' element={<DrumMachine />} />
+          <Route path='/ExpensesCalc' element={<ExpensesCalc />} />
           <Route path='/stop-watch' element={<StopWatch />} />
-          <Route path='/todo-list' element={<TodoList />} />
+          {/* <Route path='/todo-list' element={<TodoList />} /> */}
           <Route path='/quote' element={<RandomQuote />} />
           <Route path='/calculator' element={<Calculator />} />
         </Routes>
