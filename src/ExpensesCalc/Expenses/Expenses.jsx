@@ -9,7 +9,7 @@ import { useState } from 'react';
 import Chart from '../Chart/Chart';
 
 const Expenses = (props) => {
-  const [filterYear, setFilterYear] = useState('2019')
+  const [filterYear, setFilterYear] = useState('2021')
   function handleFilterYear(data) {
     setFilterYear(data)
   }
