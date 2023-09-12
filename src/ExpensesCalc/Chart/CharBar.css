@@ -34,7 +34,7 @@
 .expenses-calc {
   margin-top: 3em;
   background-color: rgb(83, 82, 82);
-  height: 100%;
   width: 100%;
+  min-height: 100vh;
   position: absolute;
 }
